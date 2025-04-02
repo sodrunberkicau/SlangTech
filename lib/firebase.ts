@@ -6,17 +6,20 @@ import { getAuth, setPersistence, browserLocalPersistence } from "firebase/auth"
 /**
  * Konfigurasi Firebase
  * Berisi kredensial dan pengaturan untuk koneksi ke Firebase
- */
+**/
+
 const firebaseConfig = {
-  apiKey: "AIzaSyA1Q1-ggG27JiC0nZG6nYXJQgWKC_i2CdE",
-  authDomain: "smarthome-fadhil.firebaseapp.com",
-  databaseURL: "https://smarthome-fadhil-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "smarthome-fadhil",
-  storageBucket: "smarthome-fadhil.firebasestorage.app",
-  messagingSenderId: "5954062029",
-  appId: "1:5954062029:web:7959f8fb9326f845850b84",
-  measurementId: "G-B34Z87GMC1",
-}
+  apiKey: "AIzaSyCw0H8NDOWQTOhhxgdeWboI225-QK33sTo",
+  authDomain: "slangtech-39367.firebaseapp.com",
+  databaseURL: "https://slangtech-39367-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "slangtech-39367",
+  storageBucket: "slangtech-39367.firebasestorage.app",
+  messagingSenderId: "503448097262",
+  appId: "1:503448097262:web:e52ee537dcfb5212ee3eff",
+  measurementId: "G-GG11V4WN3V"
+};
+
+
 
 // Inisialisasi variabel Firebase
 let app

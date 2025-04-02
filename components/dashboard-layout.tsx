@@ -7,8 +7,7 @@ import { Sidebar } from "@/components/sidebar"
 import { FirebaseProvider } from "@/components/firebase-provider"
 import { ProtectedRoute } from "@/components/protected-route"
 import { EventsProvider } from "@/components/events-provider"
-import { TrainersProvider } from "@/components/trainers-provider"
-import { PartnersProvider } from "@/components/partners-provider"
+
 import { EventCategoriesProvider } from "@/components/event-categories-provider"
 
 /**
@@ -33,8 +32,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
     <ProtectedRoute>
       <FirebaseProvider>
         <EventsProvider>
-          <TrainersProvider>
-            <PartnersProvider>
+        
               <EventCategoriesProvider>
                 <div className="flex h-screen overflow-hidden bg-background/50">
                   <Sidebar />
@@ -45,8 +43,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
                   </div>
                 </div>
               </EventCategoriesProvider>
-            </PartnersProvider>
-          </TrainersProvider>
+          
         </EventsProvider>
       </FirebaseProvider>
     </ProtectedRoute>

@@ -95,24 +95,6 @@ export function Sidebar() {
   // Definisi rute layanan pelatihan
   const trainingServicesRoutes = [
     {
-      label: "Event",
-      icon: Calendar,
-      href: "/events",
-      active: pathname === "/events",
-    },
-    {
-      label: "Pelatih",
-      icon: GraduationCap,
-      href: "/trainers",
-      active: pathname === "/trainers",
-    },
-    {
-      label: "Mitra",
-      icon: Handshake,
-      href: "/partners",
-      active: pathname === "/partners",
-    },
-    {
       label: "Kategori Event",
       icon: Tags,
       href: "/event-categories",
