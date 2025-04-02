@@ -21,14 +21,14 @@ export async function POST(request: Request) {
       secure: true,
       service: "gmail",
       auth: {
-        user: "fadhil8637@smk.belajar.id",
-        pass: "fedw woyz tyhs nlxd",
+        user: "hannan.azkatlg@gmail.com",
+        pass: "lbrr fmiz ndns psne",
       },
     })
 
     // Konten email
     const mailOptions = {
-      from: "fadhil8637@smk.belajar.id",
+      from: "hannan.azkatlg@gmail.com",
       to: email,
       subject: "Verifikasi Email Anda untuk Dashboard Ecommerce",
       html: `
